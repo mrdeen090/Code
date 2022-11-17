@@ -1,0 +1,16 @@
+impo2rt random
+random_number = random.randint(1,9)
+
+for i in range(10):
+    my_number = int(input("Enter your number:"))
+    
+    if random_number == my_number:
+        print("congarts you choosen correct number.")
+    else:
+        if random_number > my_number:
+            print("you choosen very low number")
+        elif random_number < my_number:
+            print("yor choosen very high number")
+
+
+  
